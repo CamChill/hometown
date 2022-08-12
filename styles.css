@@ -1,0 +1,134 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.hero {
+    background-image: url("images/tempeaz.jpg");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    background: #353535;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    background: #3C6E71;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.activities {
+    background: #D9D9D9;
+    text-align: center;
+    padding-top: 1px;
+    margin-bottom: 0px;
+}
+
+#flex-activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities h3 {
+    background: #3C6E71;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 40%;
+}
+
+.activity h3 {
+    background: #353535;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+
+.activity p {
+    background: #3C6E71;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;   
+}
+
+.guide {
+    background: #284B63;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.card {
+    background: #D9D9D9;
+    margin: 20px auto;
+    width: 500px;
+    display: flex;
+    color: #ffffff;
+    border-bottom: #353535 solid 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 20px;
+}
+
+.cardinfo {
+    flex-direction: column;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.guide h3 {
+    background: #353535;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.guide h4 {
+    background: #353535;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.guide p {
+    background: #284B63;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#avatar {
+    margin: auto;
+    border-radius: 30px;
+    height: 165px;
+}
